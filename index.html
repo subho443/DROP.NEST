@@ -1,50 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Dropshipping Store</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DROP NEST</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
-    <h1>My Store</h1>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#products">Products</a>
-        <a href="#contact">Contact</a>
-    </nav>
+  <h1>DROP NEST</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
 <section class="hero">
-    <h2>Best Deals Online</h2>
-    <p>Shop trending products at lowest prices</p>
+  <h2>Trending Products, Best Prices 🔥</h2>
+  <p>Shop smart. Live better.</p>
 </section>
 
-<section id="products">
-    <h2>Products</h2>
+<section id="products" class="products">
 
-    <div class="product">
-        <img src="https://via.placeholder.com/150">
-        <h3>Product 1</h3>
-        <p>₹999</p>
-        <button onclick="buyNow()">Buy Now</button>
-    </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Wireless Earbuds</h3>
+    <p>₹999</p>
+    <button onclick="orderNow('Wireless Earbuds')">Buy Now</button>
+  </div>
 
-    <div class="product">
-        <img src="https://via.placeholder.com/150">
-        <h3>Product 2</h3>
-        <p>₹1499</p>
-        <button onclick="buyNow()">Buy Now</button>
-    </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Smart Watch</h3>
+    <p>₹1499</p>
+    <button onclick="orderNow('Smart Watch')">Buy Now</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Portable Blender</h3>
+    <p>₹1299</p>
+    <button onclick="orderNow('Portable Blender')">Buy Now</button>
+  </div>
 
 </section>
 
-<section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: mystore@email.com</p>
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <p>WhatsApp: +91XXXXXXXXXX</p>
 </section>
+
+<footer>
+  <p>© 2026 DROP NEST</p>
+</footer>
 
 <script src="script.js"></script>
 </body>
