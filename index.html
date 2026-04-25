@@ -15,12 +15,7 @@
 
 <section class="products">
 
-  <div class="card">
-    <img src="https://m.media-amazon.com/images/I/61CGHv6kmWL._SL1500_.jpg">
-    <h3>Wireless Earbuds</h3>
-    <p>₹999</p>
-   <section class="products">
-
+  <!-- PRODUCT 1 -->
   <div class="card">
     <img src="https://m.media-amazon.com/images/I/61CGHv6kmWL._SL1500_.jpg">
     <h3>Wireless Earbuds</h3>
@@ -29,8 +24,11 @@
     <a href="https://rzp.io/rzp/c2qIxMb0" target="_blank">
       <button>Pay ₹999</button>
     </a>
+
+    <button onclick="orderNow('Wireless Earbuds')">Order on WhatsApp</button>
   </div>
 
+  <!-- PRODUCT 2 -->
   <div class="card">
     <img src="https://m.media-amazon.com/images/I/61y2VVWcGBL._SL1500_.jpg">
     <h3>Smart Watch</h3>
@@ -39,33 +37,11 @@
     <a href="https://rzp.io/rzp/NKB0JhB" target="_blank">
       <button>Pay ₹1499</button>
     </a>
+
+    <button onclick="orderNow('Smart Watch')">Order on WhatsApp</button>
   </div>
 
 </section>
-  </div>
-
-  <div class="card">
-    <img src="https://m.media-amazon.com/images/I/61y2VVWcGBL._SL1500_.jpg">
-    <h3>Smart Watch</h3>
-    <p>₹1499</p>
-    <button onclick="openForm('Smart Watch')">Order Now</button>
-  </div>
-
-</section>
-
-<!-- ORDER FORM -->
-<div id="orderForm" class="form-popup">
-  <div class="form-box">
-    <h2>Place Order</h2>
-    <input type="text" id="name" placeholder="Your Name" required>
-    <input type="text" id="address" placeholder="Your Address" required>
-    <input type="text" id="phone" placeholder="Phone Number" required>
-    <input type="hidden" id="product">
-
-    <button onclick="submitOrder()">Confirm Order</button>
-    <button onclick="closeForm()">Cancel</button>
-  </div>
-</div>
 
 <script src="script.js"></script>
 </body>
